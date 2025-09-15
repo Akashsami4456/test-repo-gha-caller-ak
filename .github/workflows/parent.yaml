@@ -10,4 +10,4 @@ jobs:
     with:
       node-version: '18'
     secrets:
-      token: ${{ secrets.GITHUB_TOKEN }}
+      token: ${{ secrets.MY_PAT }}
