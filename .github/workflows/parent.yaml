@@ -6,7 +6,7 @@ on:
 
 jobs:
   call-reusable:
-    uses: ./.github/workflows/reusable-ci.yml
+    uses: Akashsami4456/test-repo-gha-ak/.github/workflows/reusable-ci.yml@main
     with:
       node-version: '18'
     secrets:
